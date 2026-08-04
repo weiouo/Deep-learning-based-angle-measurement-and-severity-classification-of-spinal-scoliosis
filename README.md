@@ -51,3 +51,10 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
   <sub>Although the overall MSE and $R^2$ remain stable, outliers inflate the standard deviation, leading to evaluation bias.</sub>
 </p>
 
+## REFERENCE
+1. **z0978916348**, "Localization and Segmentation," *GitHub Repository*, 2020.  
+   Available: [https://github.com/z0978916348/Localization_and_Segmentation](https://github.com/z0978916348/Localization_and_Segmentation)
+
+2. **Ultralytics**, "YOLOv11," *GitHub Repository*, 2024.  
+   Available: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+
