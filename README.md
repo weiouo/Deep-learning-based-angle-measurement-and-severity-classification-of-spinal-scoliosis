@@ -14,14 +14,21 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
 
 ## WORKFLOW
 <img width="1455" height="641" alt="final1 drawio" src="https://github.com/user-attachments/assets/c2a5d6f8-d97a-4a5d-8b62-a6654736e1eb" />
-Data Preparation: Collected spine X-rays and annotated bounding boxes and segmentation masks. Applied CLAHE for contrast enhancement and detail sharpening.
+1. **Data Preparation & Preprocessing**
+   - **Data Annotation**: Collected spinal X-ray images and labeled them with both **bounding boxes** (for detection) and **segmentation masks**.
+   - **Image Enhancement**: Applied **CLAHE** (Contrast Limited Adaptive Histogram Equalization) to boost local contrast and highlight faint bone contours and fine details.
 
-Vertebral Detection: Leveraged YOLOv3 vs. YOLOv11 to compare small object detection performance.
+2. **Vertebral Detection (Object Detection)**
+   - Compared **YOLOv3** and **YOLOv11** to evaluate their performance in detecting small, closely packed vertebral objects in high-resolution X-rays.
 
-Angle Calculation Approaches:
+3. **Spinal Angle Calculation Approaches**
+   - **Method 1 (Curve Fitting)**: 
+     - Fits a smooth curve (polynomial/spline) using the **center coordinates ($x, y$)** of all YOLO-detected vertebrae to model spinal curvature.
+   - **Method 2 (Clinical Simulation)**: 
+     - First generates precise vertebral masks using **U-Net**.
+     - Identifies the **most tilted upper and lower end vertebrae** from the segmentation masks.
+     - Calculates the **Cobb angle** by computing the intersection angle between their boundary extension lines (mimicking clinical diagnostic criteria).
 
-*Method 1 (Curve Fitting): Fits a polynomial/spline curve using the center coordinates of YOLO-detected vertebrae.
-
-*Method 2 (Clinical Simulation): Segments vertebral masks using U-Net, then computes the Cobb angle from the most tilted top and bottom endplates.
-
-Evaluation: Classified the dataset under both methods to identify the most accurate angle estimation pipeline.
+4. **Evaluation & Classification**
+   - Classified the dataset into scoliosis severity levels using both angle estimation methods.
+   - Compared diagnostic accuracy and correlation with clinical ground truth to identify the optimal pipeline.
