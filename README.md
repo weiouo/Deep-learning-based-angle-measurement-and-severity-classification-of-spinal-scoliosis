@@ -14,6 +14,7 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
 
 ## WORKFLOW
 <img width="1455" height="641" alt="final1 drawio" src="https://github.com/user-attachments/assets/c2a5d6f8-d97a-4a5d-8b62-a6654736e1eb" />
+
 1. **Data Preparation & Preprocessing**
    - **Data Annotation**: Collected spinal X-ray images and labeled them with both **bounding boxes** (for detection) and **segmentation masks**.
    - **Image Enhancement**: Applied **CLAHE** (Contrast Limited Adaptive Histogram Equalization) to boost local contrast and highlight faint bone contours and fine details.
