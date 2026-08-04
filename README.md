@@ -25,15 +25,29 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
   
 ## RESULT
 
-<img width="260" height="143" alt="螢幕擷取畫面 2026-08-04 194000" src="https://github.com/user-attachments/assets/f95e9f4e-55d4-456d-8ee7-775d97d7f0d8" />
-Polynomial fitting fails to cover all vertebral center points, whereas LOWESS exhibits unnatural sharp bends.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f95e9f4e-55d4-456d-8ee7-775d97d7f0d8" width="60%"><br>
+  <sub>Polynomial fitting fails to cover all vertebral center points, whereas LOWESS exhibits unnatural sharp bends.</sub>
+</p>
 
-<img width="292" height="172" alt="螢幕擷取畫面 2026-08-04 194019" src="https://github.com/user-attachments/assets/b11713af-7be2-4109-84e1-d12f8ff22c47" />
-Spline achieves the best fitting performance but is prone to failure when the number of center points is insufficient; Cubic Spline, on the other hand, demonstrates higher stability.
+---
 
-<img width="293" height="142" alt="螢幕擷取畫面 2026-08-04 194009" src="https://github.com/user-attachments/assets/720a7d49-ec89-417c-8dbc-f833595670b6" />
-Combining CLAHE with YOLOv11 enhances classification performance for curve fitting, while U-Net further boosts overall accuracy.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b11713af-7be2-4109-84e1-d12f8ff22c47" width="60%"><br>
+  <sub>Spline achieves the best fitting performance but is prone to failure when the number of center points is insufficient; Cubic Spline, on the other hand, demonstrates higher stability.</sub>
+</p>
 
-<img width="274" height="123" alt="螢幕擷取畫面 2026-08-04 194027" src="https://github.com/user-attachments/assets/636bc841-3b80-4813-8582-9931ad424cfa" />
-Although the overall MSE and $R^2$ remain stable, outliers inflate the standard deviation, leading to evaluation bias.
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/720a7d49-ec89-417c-8dbc-f833595670b6" width="60%"><br>
+  <sub>Combining CLAHE with YOLOv11 enhances classification performance for curve fitting, while U-Net further boosts overall accuracy.</sub>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/636bc841-3b80-4813-8582-9931ad424cfa" width="60%"><br>
+  <sub>Although the overall MSE and $R^2$ remain stable, outliers inflate the standard deviation, leading to evaluation bias.</sub>
+</p>
 
