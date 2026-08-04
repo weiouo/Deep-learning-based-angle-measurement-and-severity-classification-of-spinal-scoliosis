@@ -1,4 +1,3 @@
-<img width="1665" height="935" alt="image" src="https://github.com/user-attachments/assets/09f89f71-d12d-4f8d-ba47-5668c246f42c" /><!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
 *** an issue with the tag "enhancement".
