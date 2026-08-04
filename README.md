@@ -12,4 +12,5 @@
 ## MOTIVATION
 Conventionally, the Cobb angle is calculated by drawing extension lines along the superior endplate of the most tilted upper vertebra and the inferior endplate of the most tilted lower vertebra. However, this manual approach suffers from substantial measurement variation, inefficiency, and an inability to process large volumes of clinical cases rapidly—motivating the inception of this study.
 
+## WORKFLOW
 <img width="1455" height="641" alt="final1 drawio" src="https://github.com/user-attachments/assets/c2a5d6f8-d97a-4a5d-8b62-a6654736e1eb" />
