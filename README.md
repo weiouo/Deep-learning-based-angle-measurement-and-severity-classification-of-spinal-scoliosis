@@ -14,3 +14,14 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
 
 ## WORKFLOW
 <img width="1455" height="641" alt="final1 drawio" src="https://github.com/user-attachments/assets/c2a5d6f8-d97a-4a5d-8b62-a6654736e1eb" />
+Data Preparation: Collected spine X-rays and annotated bounding boxes and segmentation masks. Applied CLAHE for contrast enhancement and detail sharpening.
+
+Vertebral Detection: Leveraged YOLOv3 vs. YOLOv11 to compare small object detection performance.
+
+Angle Calculation Approaches:
+
+*Method 1 (Curve Fitting): Fits a polynomial/spline curve using the center coordinates of YOLO-detected vertebrae.
+
+*Method 2 (Clinical Simulation): Segments vertebral masks using U-Net, then computes the Cobb angle from the most tilted top and bottom endplates.
+
+Evaluation: Classified the dataset under both methods to identify the most accurate angle estimation pipeline.
