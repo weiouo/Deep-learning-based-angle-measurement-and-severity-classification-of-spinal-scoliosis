@@ -1,4 +1,4 @@
-<!--
+<img width="1665" height="935" alt="image" src="https://github.com/user-attachments/assets/09f89f71-d12d-4f8d-ba47-5668c246f42c" /><!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
 *** make this better, please fork the repo and create a pull request or simply open
 *** an issue with the tag "enhancement".
@@ -35,3 +35,8 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
    - Compared diagnostic accuracy and correlation with clinical ground truth to identify the optimal pipeline.
   
 ## RESULT
+<img width="260" height="143" alt="螢幕擷取畫面 2026-08-04 194000" src="https://github.com/user-attachments/assets/f95e9f4e-55d4-456d-8ee7-775d97d7f0d8" />
+<img width="292" height="172" alt="螢幕擷取畫面 2026-08-04 194019" src="https://github.com/user-attachments/assets/b11713af-7be2-4109-84e1-d12f8ff22c47" />
+<img width="293" height="142" alt="螢幕擷取畫面 2026-08-04 194009" src="https://github.com/user-attachments/assets/720a7d49-ec89-417c-8dbc-f833595670b6" />
+<img width="274" height="123" alt="螢幕擷取畫面 2026-08-04 194027" src="https://github.com/user-attachments/assets/636bc841-3b80-4813-8582-9931ad424cfa" />
+
