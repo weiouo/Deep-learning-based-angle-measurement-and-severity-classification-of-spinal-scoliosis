@@ -33,3 +33,5 @@ Conventionally, the Cobb angle is calculated by drawing extension lines along th
 4. **Evaluation & Classification**
    - Classified the dataset into scoliosis severity levels using both angle estimation methods.
    - Compared diagnostic accuracy and correlation with clinical ground truth to identify the optimal pipeline.
+  
+## RESULT
